@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SessionImpossible/SessionImpossible.iml" filepath="$PROJECT_DIR$/SessionImpossible/SessionImpossible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/modules.iml" filepath="$PROJECT_DIR$/modules/modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sessionImp.iml" filepath="$PROJECT_DIR$/sessionImp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/volley/volley.iml" filepath="$PROJECT_DIR$/modules/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oec.android.myo.session.SIArmAndMindActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#0e0881">
+
+    <TextView
+        android:id="@+id/text"
+        android:text="@string/bar"
+        android:textSize="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:ignore="SpUsage"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:textSize="20dp"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right|top"
+        tools:ignore="SpUsage"
+        android:textColor="#000003" />
+
+    <TextView
+        android:id="@+id/lock_state"
+        android:text="@string/locked"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left|bottom"
+        tools:ignore="SpUsage"/>
+
+</FrameLayout>

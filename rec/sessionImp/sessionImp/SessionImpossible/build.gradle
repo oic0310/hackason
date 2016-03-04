@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.android.library'
+android {
+    compileSdkVersion 22
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'info.izumin.android:bletia:1.3.3'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+        maven {
+            // this must point to the myorepository distributed with the Myo SDK
+            url '../../myorepository'
+        }
+        jcenter()
+    }
+    compile 'com.thalmic:myosdk:0.10.0@aar'
+    compile 'com.uxxu.konashi:konashi-android-sdk:1.1.0'
+    //compile project(":konashi-android-sdk")
+    compile files('src/libs/ThinkGear.jar')
+    compile project(':modules:volley')
+}

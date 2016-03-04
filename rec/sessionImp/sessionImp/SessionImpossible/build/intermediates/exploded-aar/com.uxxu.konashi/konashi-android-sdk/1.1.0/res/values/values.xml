@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/pipeline/source/konashi-android-sdk/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="konashi_lib_device_list_element_address_text">#777777</color>
+    <color name="konashi_lib_device_list_element_name_text">#333333</color>
+    <color name="konashi_lib_dialog_device_list_finding_text">#888888</color>
+    <color name="konashi_lib_dialog_device_list_not_found">#333333</color>
+    <!-- From: file:/pipeline/source/konashi-android-sdk/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="konashi_lib_device_list_element_address_text_size">14dp</dimen>
+    <dimen name="konashi_lib_device_list_element_device_name_margin_bottom">3dp</dimen>
+    <dimen name="konashi_lib_device_list_element_margin">10dp</dimen>
+    <dimen name="konashi_lib_device_list_element_name_text_size">20dp</dimen>
+    <dimen name="konashi_lib_device_list_height">300dp</dimen>
+    <dimen name="konashi_lib_dialog_device_list_finding_margin">4dp</dimen>
+    <dimen name="konashi_lib_dialog_device_list_finding_text_margin_left">3dp</dimen>
+    <dimen name="konashi_lib_dialog_device_list_finding_text_size">12dp</dimen>
+    <dimen name="konashi_lib_dialog_device_list_not_found_margin">10dp</dimen>
+    <dimen name="konashi_lib_dialog_device_list_not_found_text_size">20dp</dimen>
+    <!-- From: file:/pipeline/source/konashi-android-sdk/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="konashi_lib_ble_not_supported">BLE not supported on this device.</string>
+    <string name="konashi_lib_device_list_element_unknown_device">Unknown Device</string>
+    <string name="konashi_lib_dialog_device_list_cancel_button">Cancel</string>
+    <string name="konashi_lib_dialog_device_list_finding_text">Finding konashi</string>
+    <string name="konashi_lib_dialog_device_list_not_found">konashi Not Found...</string>
+    <string name="konashi_lib_dialog_device_list_title">Select konashi</string>
+</resources>

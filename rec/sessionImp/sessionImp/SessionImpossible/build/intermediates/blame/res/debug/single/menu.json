@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/oec/AndroidStudioProjects/sessionImp/sessionImp/SessionImpossible/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/oec/AndroidStudioProjects/sessionImp/sessionImp/SessionImpossible/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/oec/AndroidStudioProjects/sessionImp/sessionImp/SessionImpossible/build/intermediates/res/merged/debug/menu/myosdk__fragment_scan.xml",
+        "source": "/Users/oec/AndroidStudioProjects/sessionImp/sessionImp/SessionImpossible/build/intermediates/exploded-aar/com.thalmic/myosdk/0.10.0/res/menu/myosdk__fragment_scan.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SessionImpossible</string>
+    <string name="btn_find">-</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bar">｜</string>
+    <string name="scan">Scan</string>
+    <string name="pose_fist">Fist</string>
+    <string name="pose_wavein">Wave In</string>
+    <string name="pose_waveout">Wave Out</string>
+    <string name="pose_fingersspread">｜</string>
+    <string name="pose_rest">｜</string>
+    <string name="arm_left">｜</string>
+    <string name="arm_right">｜</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="locked">Locked</string>
+
+</resources>
